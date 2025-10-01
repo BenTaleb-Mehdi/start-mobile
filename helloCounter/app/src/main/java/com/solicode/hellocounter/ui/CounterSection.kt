@@ -17,6 +17,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 @Composable
 fun CompteurSection(modifier: Modifier = Modifier) {
     var count by rememberSaveable {
+
         mutableStateOf(0)
     }
 
