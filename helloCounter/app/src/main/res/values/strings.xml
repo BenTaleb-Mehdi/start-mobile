@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">helloCounter</string>
+    <string name="app_name">HelloCounter</string>
+
+    <!-- Dire bonjour -->
+    <string name="label_firstname">Prénom</string>
+    <string name="ph_firstname">Entrez votre prénom</string>
+    <string name="btn_greet">Dire bonjour</string>
+    <string name="msg_greeting">Bonjour, %1$s !</string>
+
+    <!-- Compteur -->
+    <string name="title_counter">Compteur</string>
+    <string name="cd_decrement">Diminuer la valeur</string>
+    <string name="cd_increment">Augmenter la valeur</string>
+    <string name="cd_counter_value">Valeur actuelle : %1$d</string>
 </resources>
