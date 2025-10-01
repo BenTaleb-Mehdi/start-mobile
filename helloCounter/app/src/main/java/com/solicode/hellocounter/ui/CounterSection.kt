@@ -12,10 +12,11 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
 import com.solicode.hellocounter.R
+import androidx.compose.runtime.saveable.rememberSaveable
 
 @Composable
 fun CompteurSection(modifier: Modifier = Modifier) {
-    var count by remember {
+    var count by rememberSaveable {
         mutableStateOf(0)
     }
 
