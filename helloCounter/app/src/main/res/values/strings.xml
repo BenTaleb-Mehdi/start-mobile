@@ -7,6 +7,7 @@
     <string name="btn_greet">Dire bonjour</string>
     <string name="msg_greeting">Bonjour, %1$s !</string>
 
+    
     <!-- Compteur -->
     <string name="title_counter">Compteur</string>
     <string name="cd_decrement">Diminuer la valeur</string>

@@ -1,4 +1,4 @@
-package com.solicode.hellocounter.ui
+package com.solicode.hellocounter.uid
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -12,14 +12,10 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
 import com.solicode.hellocounter.R
-import androidx.compose.runtime.saveable.rememberSaveable
 
 @Composable
 fun CompteurSection(modifier: Modifier = Modifier) {
-    var count by rememberSaveable {
-
-        mutableStateOf(0)
-    }
+    var count by remember { mutableStateOf(0) }
 
     val decrementCd = stringResource(R.string.cd_decrement)
     val incrementCd = stringResource(R.string.cd_increment)
