@@ -1,4 +1,4 @@
-package com.solicode.hellocounter.ui
+package com.solicode.project.demo
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
@@ -9,9 +9,8 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
-import com.solicode.hellocounter.R
+import com.solicode.project.R
 import androidx.compose.runtime.saveable.rememberSaveable
-
 
 @Composable
 fun DireBonjourSection(modifier: Modifier = Modifier) {
